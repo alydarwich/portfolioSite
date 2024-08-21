@@ -8,8 +8,8 @@ import Logo from "./Logo";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState("text-animate");
-    const nameArray = "rik, ".split("");
-    const jobArray = "software engineer.".split("");
+    const nameArray = "li, ".split("");
+    const jobArray = "Software Engineer.".split("");
 
     useEffect(() => {
         const timerId = setTimeout(() => {
@@ -30,7 +30,7 @@ const Home = () => {
                         <span className={`${letterClass} _9`}>i</span>
                         <br />
                         <span className={`${letterClass} _10`}>I</span>
-                        <span className={`${letterClass} _11`}>&aposm</span>
+                        <span className={`${letterClass} _11`}>'m</span>
                         <img src={LogoE} alt="developer" />
                         <AnimatedLetters
                             letterClass={letterClass}
@@ -45,7 +45,7 @@ const Home = () => {
                         />
                     </h1>
                     <h2>
-                        Computer Scientist 2025 at Islamic University of Lebanon
+                        Computer Scientist, 2025 at Islamic University of Lebanon
                     </h2>
                     <Link to="/contact" className="flat-button">
                         CONTACT ME
