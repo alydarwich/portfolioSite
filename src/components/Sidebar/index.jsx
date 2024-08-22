@@ -11,7 +11,7 @@ import {
     faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import LogoE from "../../assets/images/alidarwish.svg";
-import LogoSubtitle from "../../assets/images/alidarwish.svg";
+import LogoSubtitle from "../../assets/images/Artboard 1.png";
 import {
     faGithub,
     faLinkedin,

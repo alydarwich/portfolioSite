@@ -1,10 +1,11 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
+import "./index.scss";
 
 const AnimatedLetters = ({ letterClass, strArray, idx }) => {
     return (
         <span>
             {strArray.map((char, i) => (
-                <span key={i} className={`${letterClass} _${i + idx}`}>
+                <span key={char + i} className={`${letterClass} _${i + idx}`}>
                     {char}
                 </span>
             ))}
@@ -12,11 +13,10 @@ const AnimatedLetters = ({ letterClass, strArray, idx }) => {
     );
 };
 
-// Define prop types
 AnimatedLetters.propTypes = {
-    letterClass: PropTypes.string.isRequired,
-    strArray: PropTypes.arrayOf(PropTypes.string).isRequired,
-    idx: PropTypes.number.isRequired,
+    letterClass: PropTypes.string.isRequired,  // Ensure it's a string and required
+    strArray: PropTypes.arrayOf(PropTypes.string).isRequired,  // Ensure it's an array of strings and required
+    idx: PropTypes.number.isRequired  // Ensure it's a number and required
 };
 
 export default AnimatedLetters;
