@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 // import Portfolio from './components/Portfolio';
 import Work from './components/Work';
 import Tech from './components/About/Tech';
-import Dev from './components/About/Dev/Index';
+import Dev from './components/About/Dev';
 import Portfolio from './components/Portfolio';
 
 
