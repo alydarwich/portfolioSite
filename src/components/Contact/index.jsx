@@ -73,7 +73,7 @@ const Contact = () => {
                                     <a
                                         target="_blank"
                                         rel="noreferrer"
-                                        href="https://www.linkedin.com/in/erik-cupsa/"
+                                        href="https://www.linkedin.com/in/ali-darwish-58bb16279/"
                                     >
                                         <FontAwesomeIcon
                                             icon={faLinkedin}
@@ -84,7 +84,7 @@ const Contact = () => {
                                     <a
                                         target="_blank"
                                         rel="noreferrer"
-                                        href="mailto:ErikCupsa@gmail.com"
+                                        href="mailto:alidarwish9111@gmail.com"
                                     >
                                         <FontAwesomeIcon
                                             icon={faEnvelope}
@@ -104,7 +104,7 @@ const Contact = () => {
                                             <li className="half">
                                                 <input
                                                     type="text"
-                                                    name="name"
+                                                    name="from_name"
                                                     placeholder="Name"
                                                     required
                                                 />
@@ -112,7 +112,7 @@ const Contact = () => {
                                             <li className="half">
                                                 <input
                                                     type="email"
-                                                    name="email"
+                                                    name="user_email"
                                                     placeholder="Email"
                                                     required
                                                 />

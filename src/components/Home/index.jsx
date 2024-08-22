@@ -5,7 +5,6 @@ import LogoE from "../../assets/images/alidarwish.svg";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import Logo from "../Home/logo";
-import Vid from "../../assets/images/alibinary.mp4";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState("text-animate");

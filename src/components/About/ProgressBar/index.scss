@@ -1,0 +1,91 @@
+.progress-bar {
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.progress {
+    background-color: #4caf50;
+    height: 20px;
+    border-radius: 5px;
+    width: 0;
+}
+
+.python-progress .progress {
+    background-color: #ffd700;
+}
+
+.java-progress .progress {
+    background-color: #ff8c00;
+}
+.golang-progress .progress {
+    background-color: #008080;
+}
+
+.nlp-progress .progress {
+    background-color: #c5b0d5;
+}
+
+.vue-progress .progress {
+    background-color: #42b883;
+}
+
+.web-progress .progress {
+    background-color: #2ecc71;
+}
+
+.sql-progress .progress {
+    background-color: #8e44ad;
+}
+
+.c-progress .progress {
+    background-color: #34495e;
+}
+.llm-progress .progress {
+    background-color: #1a237e;
+}
+
+.vhdl-progress .progress {
+    background-color: #3a5a40;
+}
+
+.react-progress .progress {
+    background-color: #61dafb;
+}
+
+.aws-progress .progress {
+    background-color: #232f3e;
+}
+.node-progress .progress {
+    background-color: #333333;
+}
+
+.azure-progress .progress {
+    background-color: #fdb813;
+}
+
+.postman-progress .progress {
+    background-color: #ff6c37;
+}
+
+.pbi-progress .progress {
+    background-color: #00b8aa;
+}
+
+.github-progress .progress {
+    background-color: #181717;
+}
+.springboot-progress .progress {
+    background-color: #98ff98;
+}
+.docker-progress .progress {
+    background-color: #7805b2;
+}
+.postgre-progress .progress {
+    background-color: #ef5b65;
+}
+
+.language-info {
+    margin-left: 10px;
+    color: #fff;
+}
