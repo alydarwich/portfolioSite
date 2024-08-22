@@ -15,8 +15,6 @@ import LogoSubtitle from "../../assets/images/Artboard 1.png";
 import {
     faGithub,
     faLinkedin,
-    faInstagram,
-    faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
@@ -97,7 +95,7 @@ const Sidebar = () => {
                     <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/erik-cupsa/"
+                        href="https://www.linkedin.com/in/ali-darwish-58bb16279/"
                     >
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                     </a>
@@ -106,27 +104,9 @@ const Sidebar = () => {
                     <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://github.com/Erik-Cupsa"
+                        href="https://github.com/thedude756"
                     >
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-                    </a>
-                </li>
-                <li>
-                    <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.youtube.com/channel/UCgKFOz_KrMbmypWrawtzDQg"
-                    >
-                        <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
-                    </a>
-                </li>
-                <li>
-                    <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.instagram.com/swerikcodes/"
-                    >
-                        <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
                     </a>
                 </li>
             </ul>

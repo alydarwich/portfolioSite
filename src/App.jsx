@@ -8,7 +8,8 @@ import Contact from './components/Contact';
 // import Portfolio from './components/Portfolio';
 import Work from './components/Work';
 import Tech from './components/About/Tech';
-import Dev from './components/About/Dev';
+import Dev from './components/About/Dev/Index';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <Route path="about/tech" element={<Tech />} />
           <Route path="about/dev" element={<Dev />} />
           <Route path="contact" element={<Contact />} />
-          
+          <Route path="portfolio" element={<Portfolio />} />
           <Route path="work" element={<Work />} />
         </Route>
       </Routes>

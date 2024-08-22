@@ -1,0 +1,16 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/Chat.png",
+            "title": "Chat App",
+            "description": "NextJS, Redis, Tailwind",
+            "url": "https://google.com"
+        },
+        {
+            "cover": "/portfolio/project2.png",
+            "title": "Article Summarizer",
+            "description": "ReactJS, Redux Toolkit, Tailwind",
+            "url": "https://google.com"
+        }
+    ]
+}
